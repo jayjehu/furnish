@@ -8,11 +8,13 @@ const Hero = () => {
         <div className="mx-auto w-fit flex-col">
           <span className="font-thin text-5xl">Best Design of <br /></span>
           <span className="font font-bold text-5xl">Building Collections</span>
+          <p w-80 className="pt-5">A small river named Duden flows by their place <br />and supplies it with the necessary regelialia.</p>
+          <button className="bg-white px-6 py-2 rounded-full drop-shadow-lg uppercaset text-deepBlue font-semibold mt-5">Discover</button>
+    
         </div>
 
-        <p w-80>A small river named Duden flows by their place <br />and supplies it with the necessary regelialia.</p>
-        <button className="bg-white px-6 py-2 rounded-full drop-shadow-lg uppercaset text-deepBlue font-semibold">Discover</button>
-      </div>
+       
+         </div>
 
       <div className="w-1/2">
         <img src={heroBg} alt="hero background" className="object-cover w-full h-full" />

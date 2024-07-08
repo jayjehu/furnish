@@ -1,9 +1,10 @@
-import { storyImg } from "../../../assets";
+
 
 const Story = () => {
   return (
     <div>
-       <img src={heroBg} alt="story image" className="" />
+       <img  />
+       <div></div>
     </div>
   )
 }
